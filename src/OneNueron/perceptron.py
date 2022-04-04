@@ -66,4 +66,4 @@ class Perceptron:
   def total_loss(self):
     total_loss=np.sum(self.error)
     print(f"total_loss :{total_loss}")
-    return total_loss   
+    return total_loss  
