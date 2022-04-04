@@ -3,7 +3,7 @@ import setuptools
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 USERNAME="sathishbilli",
-PROJECT_NAME="OneNeuron"
+PROJECT_NAME="onenueron"
 setuptools.setup(
     name=f"{PROJECT_NAME}-{USERNAME}",
     version="0.0.1",
