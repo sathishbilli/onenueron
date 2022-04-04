@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 USERNAME="sathishbilli",
 PROJECT_NAME="OneNeuron"
 setuptools.setup(
-    name=f"{PROJECT_NAME}{USERNAME}",
+    name=f"{PROJECT_NAME}-{USERNAME}",
     version="0.0.1",
     author=f"{USERNAME}",
     author_email="sathishmahi398@gmail.com",
