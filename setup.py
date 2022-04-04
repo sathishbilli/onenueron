@@ -2,11 +2,11 @@ import setuptools
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
-USERNAME="sathishbilli",
+USERNAME="sathishbilli"
 PROJECT_NAME="onenueron"
 setuptools.setup(
     name=f"{PROJECT_NAME}-{USERNAME}",
-    version="0.0.1",
+    version="0.0.2",
     author=f"{USERNAME}",
     author_email="sathishmahi398@gmail.com",
     description="this a peceptron package",
