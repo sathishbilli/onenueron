@@ -27,16 +27,14 @@ class Perceptron:
       print('----'*10)
 
       y_hat=self.activationfunctions(x_with_bias,self.weights)#forward propagation
-      i=0
-      if y==y_hat:
-        i+=1
+     
 
       
 
 
       print(f"y_hat :\n{y_hat}")
       print('#'*20)
-      print(f"accuracy :\n{i/4}")
+      
 
 
       self.error=self.y-y_hat
